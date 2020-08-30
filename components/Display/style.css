@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:  calc(3vw + 2vh + 2vmin);
+  font-weight: bold;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+/* body {
+  background-image: url('./bg.jpg');
+  color: white;
+  text-shadow: 4px 4px 2px black, -1px -1px 0 black;
+} */
+
+body, html {
+  height: 90%;
+  display: grid;
+}
+.content {
+  margin: auto;
+  margin-top: 5vh;
+  text-align: center;
+}

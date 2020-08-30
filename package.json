@@ -1,0 +1,15 @@
+{
+  "name": "projector",
+  "version": "1.0.0",
+  "description": "An Electron-based lyrics projector",
+  "main": "main.js",
+  "repository": "git@github.com:tomiolah1998/projector.git",
+  "author": "Tomi Olah <tomiolah1998@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^9.2.1"
+  }
+}
