@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Control Panel</title>
+  <link rel="stylesheet" href="cirrus.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="./js/Song.js" type="module"></script>
+  <script src="./js/ipc.js" type="module"></script>
+  <script src="./js/client.js" type="module"></script>
+</head>
+<body>
+  <div class="row">
+    <div class="col"><textarea id="input-text"></textarea></div>
+    <div class="col">
+      <div id="components"></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="row">
+      <div class="col btn-container">
+        <button id="new-display-btn" class="btn btn-info"><h2>New Display</h2></button>
+      </div>
+      <div class="col btn-container">  
+        <button id="clear-btn" class="btn btn-primary" onclick="clear()">
+          <h2>CLEAR</h2>
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
