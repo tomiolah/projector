@@ -16,7 +16,7 @@ function parse(text: String): Song {
         .replace(']', '')
       : `section-${i}`;
     if (t) lines.shift();
-    if (name === 'map') {
+    if (name === 'map' && lines[0]) {
       song.roadmap = lines[0]
         .split(' ')
         .filter(v => v && v !== '');

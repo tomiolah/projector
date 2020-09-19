@@ -9,7 +9,7 @@ button, textarea {
   text-align: center;
 }
 
-textarea {
+textarea, .song-ctrl {
   height: 65vh;
   overflow: scroll;
   resize: none;
@@ -29,8 +29,6 @@ textarea {
 .song-ctrl {
   margin-bottom: 5px;
   overflow: scroll;
-  height: 360px;
-  width: 370px;
 }
 
 .part-div {
